@@ -2,7 +2,7 @@ require "sass"
 
 if (defined? Compass)
   Compass::Frameworks.register(
-    "glyph",
+    "sassy-glyph",
     :path => "#{File.dirname(__FILE__)}/.."
   )
 end

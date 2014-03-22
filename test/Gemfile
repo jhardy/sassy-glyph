@@ -2,4 +2,4 @@ source "http://rubygems.org"
 
 gem "compass", "~> 1.0.0.alpha.18"
 gem "true"
-gem "glyph", path => ".."
+gem "sassy-glyph", path => ".."

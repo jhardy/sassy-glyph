@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "./lib/glyph"
 
 Gem::Specification.new do |spec|
-  spec.name          = "glyph"
+  spec.name          = "sassy-glyph"
   spec.version       = Glyph::VERSION
   spec.authors       = ["Jared Hardy"]
   spec.email         = ["jared@jaredhardy.com"]
