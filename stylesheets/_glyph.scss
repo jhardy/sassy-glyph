@@ -1,0 +1,4 @@
+@function glyph($string) {
+    $val: to_glyph($string);
+    @return  "#{$val}";
+}

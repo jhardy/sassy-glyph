@@ -1,0 +1,39 @@
+/*  
+
+### Character Conversion ------ */
+/*  - [function] glyph() (8 Assertions, 8 Passed, 0 Failed) */
+/*  
+    1 Tests:
+    - 1 Passed
+    - 0 Failed */
+.arrow:after {
+  content: "\279C";
+}
+
+.punctuation:after {
+  content: "\00A1";
+}
+
+.currency:after {
+  content: "\20AC";
+}
+
+.bullet:after {
+  content: "\2737";
+}
+
+.math:after {
+  content: "\2A33";
+}
+
+.letter:after {
+  content: "\00AE";
+}
+
+.picto:after {
+  content: "\2603";
+}
+
+.paren:after {
+  content: "\00AB";
+}

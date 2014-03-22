@@ -1,0 +1,53 @@
+@import "true";
+@import "glyph";
+
+$arrow: glyph('➜');
+$punctuation: glyph('¡');
+$currency: glyph('€');
+$bullet: glyph('✷');
+$math: glyph('⨳');
+$letter: glyph('®');
+$picto: glyph('☃');
+$paren: glyph('«');
+
+
+@include test-module('Character Conversion') {
+  @include test('[function] glyph()') {
+
+    @include assert-equal($arrow, "\279C", "➜ is equal to '\279C'");
+    @include assert-equal($punctuation, "\00A1", "¡ is equal to '\00A1'");
+    @include assert-equal($currency, "\20AC", "€ is equal to '\20AC'");
+    @include assert-equal($bullet, "\2737", "✷ is equal to '\2737'");
+    @include assert-equal($math, "\2A33", "⨳ is equal to '\2A33'");
+    @include assert-equal($letter, "\00AE", "® is equal to '\00AE'");
+    @include assert-equal($picto, "\2603", "☃ is equal to '\2603'");
+    @include assert-equal($paren, "\00AB", "« is equal to '\00AB'");
+  }
+}
+
+
+@mixin after($glyph) {
+  &:after {
+    content: $glyph;
+    @content;
+  }
+}
+
+
+.arrow        { @include after($arrow);}
+.punctuation  { @include after($punctuation); }
+.currency     { @include after($currency); }
+.bullet       { @include after($bullet); }
+.math         { @include after($math); }
+.letter       { @include after($letter); }
+.picto        { @include after($picto); }
+.paren        { @include after($paren); }
+
+
+
+
+
+
+
+
+
