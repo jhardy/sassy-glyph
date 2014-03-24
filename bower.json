@@ -1,0 +1,10 @@
+{
+  "name": "sassy-glyph",
+  "version": "0.5.0",
+  "main": "stylesheets/_sassy-glyph.scss",
+  "ignore": [
+    "lib",
+    "test",
+    "pkg"
+  ]
+}

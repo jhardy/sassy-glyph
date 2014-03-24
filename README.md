@@ -1,24 +1,29 @@
 # Glyph
 
-TODO: Write a gem description
+Glyph is a small extension that will convert a special character to it's CSS hex value for use in :before and :after pseudo content.
+
+![Glyph Demo](http://f.cl.ly/items/090F3B1a190E2C3f0G1A/glyph.gif)
 
 ## Installation
 
-Add this line to your application's Gemfile:
+### Compass
+    # Install gem
+    gem install sassy-glyph
 
-    gem 'sassy-glyph'
+    # Require in your config.rb file
+    require 'sassy-glyph'
 
-And then execute:
+    # Import into your project
+    @import "sassy-glyph";
 
-    $ bundle
+### Bower
 
-Or install it yourself as:
+    # Install with bower
+    bower install sassy-glyph
 
-    $ gem install sassy-glyph
+    #Import into your project
 
-## Usage
 
-TODO: Write usage instructions here
 
 ## Contributing
 
@@ -27,3 +32,5 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+

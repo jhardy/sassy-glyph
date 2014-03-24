@@ -1,0 +1,5 @@
+{
+  "name": "sassy-glyph",
+  "description": "Glyph is a small extension that will convert a special character to it's CSS hex value for use in :before and :after pseudo content.",
+  "tags": ["glyphs", "pseudo content", "symbols"]
+}
