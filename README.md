@@ -23,14 +23,18 @@ Glyph is a small extension that will convert a special character to it's CSS hex
 
     #Import into your project
 
+## Usage
 
+Use the glyph mixin in the content property and it will compile to the correct CSS hex value
 
-## Contributing
+    # Use glyph mixin
+    .arrow:after {
+        content: glyph(➜)
+    }
 
-1. Fork it ( http://github.com/<my-github-username>/sassy-glyph/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    # CSS compiles to
+    .arrow:after {
+        content: "\279C";
+    }
 
 
