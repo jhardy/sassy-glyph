@@ -11,7 +11,7 @@ Glyph is a small extension that will convert a special character to it's CSS hex
     gem install sassy-glyph
 
     # Require in your config.rb file
-    require 'sassy-glyph'
+    require 'glyph'
 
     # Import into your project
     @import "sassy-glyph";
