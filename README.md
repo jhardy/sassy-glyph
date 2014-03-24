@@ -16,13 +16,6 @@ Glyph is a small extension that will convert a special character to it's CSS hex
     # Import into your project
     @import "sassy-glyph";
 
-### Bower
-
-    # Install with bower
-    bower install sassy-glyph
-
-    #Import into your project
-
 ## Usage
 
 Use the glyph mixin in the content property and it will compile to the correct CSS hex value
