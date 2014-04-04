@@ -18,7 +18,7 @@ Glyph is a small extension that will convert a special character to it's CSS hex
 
 ## Usage
 
-Use the glyph mixin in the content property and it will compile to the correct CSS hex value
+Use the glyph mixin in the content property and it will compile to the correct HTML glyph octal
 
     # Use glyph mixin
     .arrow:after {
